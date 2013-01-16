@@ -34,9 +34,9 @@ plugins=(git brew battery ruby rvm mvn lein sublime)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/bin:/usr/local/sbin
+export PATH=$PATH:~/bin:/usr/local/share/npm/bin
 
-export NODE_PATH=/usr/local/lib/node_modules
+export NODE_PATH=/usr/local/share/npm/lib/node_modules
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM
