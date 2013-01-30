@@ -52,6 +52,7 @@ alias lart="ls -lart -G"
 # os
 alias cpus="sysctl -n hw.ncpu"
 alias hdd="df -h"
+alias dirsizes="du -md1"
 alias filesize="stat -f \"%z bytes\""
 
 # ssh
